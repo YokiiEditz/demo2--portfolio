@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        "txfirst": "rgba(var(--text_first))",
+        "txsecond": "rgba(var(--text_second))",
+        "bgfirst": "rgba(var( --bg_first))"
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
